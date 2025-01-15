@@ -133,17 +133,17 @@
     </footer>
 
     <script>
-      // // disable right click
-      // document.addEventListener("contextmenu", function (e) {
-      //   e.preventDefault();
-      // });
+      // disable right click
+      document.addEventListener("contextmenu", function (e) {
+        e.preventDefault();
+      });
 
-      // // disable inspect element key
-      // document.addEventListener("keydown", (e) => {
-      //   if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key === "I")) {
-      //     e.preventDefault();
-      //   }
-      // });
+      // disable inspect element key
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key === "I")) {
+          e.preventDefault();
+        }
+      });
     </script>
   </body>
 </html>
